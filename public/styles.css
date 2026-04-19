@@ -135,7 +135,7 @@ a {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('/img/Natureza/IMG_3687.JPG');
+    background-image: url('../img/Natureza/IMG_3687.JPG');
     background-size: cover;
     background-position: center;
 }
