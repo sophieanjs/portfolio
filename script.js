@@ -101,28 +101,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Contact Form
-    const contactForm = document.getElementById('contactForm');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = {};
-            formData.forEach((value, key) => {
-                data[key] = value;
-            });
-
-            // Mock form submission
-            alert('Obrigado pela mensagem! Entraremos em contato em breve.');
-            
-            // Reset form
-            this.reset();
-        });
-    }
-
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
